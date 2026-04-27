@@ -1,3 +1,3 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","4343","@Master User registration testcase","chromium","2026-04-27","passed","2026-04-27","","AccountRegistration.spec.ts","",""
-"","1320","@Master Verify that 3 products are getting displayed on UI","chromium","2026-04-27","passed","2026-04-27","","Dashboard.spec.ts","",""
+"","1293","@Master Verify that 3 products are getting displayed on UI","chromium","2026-04-27","passed","2026-04-27","","Dashboard.spec.ts","",""
+"","5156","@Master User registration testcase","chromium","2026-04-27","passed","2026-04-27","","AccountRegistration.spec.ts","",""
