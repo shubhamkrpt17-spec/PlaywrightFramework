@@ -6,7 +6,8 @@
     "test:login": "playwright test tests/LoginDataDriven.spec.ts --headed",
     "test:app": "playwright test --grep @Master --headed",
     "clean:allure": "rimraf allure-results allure-report",
-    "test:report": "npm run clean:allure && npm run test:app && allure generate ./allure-results -o ./allure-report --clean && allure open ./allure-report"  
+    "test:report": "npm run clean:allure && npm run test:app && allure generate ./allure-results -o ./allure-report --clean"  
+    
   },
   "keywords": [],
   "author": "",
