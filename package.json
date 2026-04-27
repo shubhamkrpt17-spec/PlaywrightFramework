@@ -1,0 +1,26 @@
+{
+  "name": "playwrightframework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:login": "playwright test tests/LoginDataDriven.spec.ts --headed",
+    "test:app": "playwright test --grep @Master --headed",
+    "clean:allure": "rimraf allure-results allure-report",
+    "test:report": "npm run clean:allure && npm run test:app && allure generate ./allure-results -o ./allure-report --clean && allure open ./allure-report"  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "allure-playwright": "^3.7.1",
+    "rimraf": "^5.0.10"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "csv-parse": "^6.2.1",
+    "xlsx": "^0.18.5"
+  }
+}
